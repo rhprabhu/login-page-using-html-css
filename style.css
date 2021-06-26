@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+}
+
+.block-labels{
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* form{ 
+    background-color: aqua;
+}*/
+
+input{
+    font-size: 1.5rem;
+    padding: 5px;
+    border: none;
+}
+
+#sign-btn{
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+    background-color: rgb(rgb(89, 0, 255), rgb(3, 78, 3), rgb(8, 8, 44));
+    border: none;
+    color: rgb(146, 126, 126);
+    cursor: pointer;
+
+}
+
+#sign-btn:hover{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(rgb(89, 0, 255), rgb(3, 78, 3), rgb(8, 8, 44));
+}
+
+#login-checkbox{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(0,00,0.2);
+}
+
+.my-border{
+
+border: 1px solid rgb(0,0,0);
+padding: 20px;
+border-radius: 5%;
+box-shadow: 10px 10px 15px black;
+background-color: aqua;
+}
